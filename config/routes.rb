@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'ssesion#new'
+  root 'users#new'
   resources :feeds
   resources :contacts
   get 'sessions/new'
